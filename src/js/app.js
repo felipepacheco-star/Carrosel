@@ -10,7 +10,7 @@ const btnDireita = document.querySelector('#btnDireita');
 const imagens = [
     './img/pizzy.avif',
     './img/cs4.jpg',
-    './img/coringao.png',
+    './img/gunir.jpg',
     './img/tough.jpg',
     './img/cs5.png',
     './img/cs.jpg',
@@ -21,7 +21,7 @@ const imagens = [
 let indiceAtual = 0;
 let temporizador;
 function atualizarCarrossel(){
-    // telaCarousel.style.backgroundColor = cores[indiceAtual];
+   
     telaCarousel.style.backgroundImage = `url('${imagens[indiceAtual]}')`;
 }
 
